@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -21,6 +22,7 @@
     })
 </script>
 <body>
+  <!-- amdt header -->
   <header class="header">
     <nav class="navbar navbar-expand-lg header-nav fixed-top">
       <a class="main-logo" href="index.html"><img src="images/amdt-logo-2.png"></a>
@@ -35,29 +37,31 @@
         <ul class="navbar-nav ml-auto">
           <!-- menu items -->
           <li class="nav-item">
-            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">AMDT QUIZE</a>
+            <a class="nav-link" href="#">Amdt Quiz</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">MY CREATIVE PAGE</a>
+            <a class="nav-link" href="#">My Creative Page</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT THE DEVELOPER</a>
+            <a class="nav-link" href="#">About the Developer</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT US</a>
+            <a class="nav-link" href="#">Contact Us</a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
-          <button class="nav-btn">APPLY NOW</button>
+          <button class="nav-btn">Apply Now</button>
         </ul>
       </div>
     </nav>
   </header>
   
-  <main>
+  <main id="main">
+
+    <!-- main carousel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -84,24 +88,203 @@
         <span class="sr-only">Next</span>
       </a>
     </div> 
-  
-  <section class="sec sec-1">
-    <div class= "row">
-      <div class="col">
-        <h1>Welcome to amdt</h1>
-        <p>Sed Sit Amet Diam Ultrices, Pellentesque Ipsum Eu, Tristique Nulla.Cras Pellentesque Felis Quis Rutrum Tincidunt. Pellentesque Efficitur Ultrices Nulla Quis Pellentesque. Maecenas Porttitor Fringilla Libero, Non Pulvinar Massa Sagittis Id. Etiam Faucibus Imperdiet Nibh, Ac Porta Eros. Ut Ornare Purus Eget Dapibus Consequat. Praesent Id Est Nunc.
-        </p>
-        <button type="button" class="btn btn-outline-primary">Read More</button>
+
+
+    <!-- home about section -->
+    <section id="home-about">
+      <div class="row align-middle">
+        <div class="col-lg-6 order-lg-1">
+          <h1 class="font-weight-bold about-title">Welcome to Amdt</h1>
+            <p class="about-content para">
+              AMDT School of Creativity’s vision is to make Sri Lanka a Creative country and to empower Sri Lanka’s Creative communities with talented and motivated people, to build impactful Creative enterprises.<br><br>
+              Our hands-on course curriculum is taught by some of the finest minds working in today’s Creative industries with numerous years of experience working with many brands and projects. So you learn what exactly you need. They will help you develop your talent, obtain skills, and build-up your personality to face your career and life.
+            </p>
+            <a href="#" class="btn btn-outline-primary">Read More</a>
+        </div>
+
+        <div class="col-lg-6 order-lg-2">
+          <img src="./images/Creativity-starts-here-.png" class="img-fluid" alt="">
+        </div>
       </div>
-      <div class="col">
-        <img class="sec-1-img" src="./images/Creativity-starts-here-.png" alt="">
+    </section>
+
+    <!-- info-section -->
+    <section id="info-area">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-8">
+          <i class="fa fa-quote-left"></i>
+          <h1 class="info-area-title font-weight-bold  text-center"> 
+            Discover The Variety Of Creative Degrees From Falmouth University Uk And Btec Hnds From Pearson Uk.
+          </h1>
+          <i class="fa fa-quote-right"></i>
+          <br>
+          <h5 class="text-center sub-text">
+            Enroll for the January 2022 Intake
+          </h5>
+        </div>
       </div>
+    </section>
+
+    
+
+    <!-- Courses Tabs -->
+    <nav class="nav nav-pills nav-fill justify-content-md-center">
+      <a class="nav-link active" aria-current="page" data-toggle="pill" href="#home">All</a>
+      <a class="nav-link" data-toggle="pill" href="#menu1">Undergraduate</a>
+      <a class="nav-link" data-toggle="pill" href="#home">Btec Hnd</a>
+      <a class="nav-link" data-toggle="pill" href="#menu1">Final Year - Topup</a>
+      <a class="nav-link" data-toggle="pill" href="#" >Foundation</a>
+    </nav>
+
+
+    <div class="tab-content">
+    <div id="home" class="tab-pane fade in active col-lg-4 col-md-6">
+      <img src="./images/ba-hons-animation-vfx-final-year-top-up-th-853x640.jpg" alt="" width="50%"> 
     </div>
-  </section>
+    <div id="home" class="tab-pane fade col-lg-4">
+      <img src="/images/ba-hons-graphic-design-final-year-top-up-th-853x640.jpg" alt="" width="75%">
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+</div>
+
+
+    <!-- text-section -->
+    <section id="text-area-two">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-10">
+          <h1 class="text-area-two-title font-weight-bold  text-center"> 
+            #weareamdt And We Are Sri Lanka’s Creative Community. Join Our March Towards Making Sri Lanka Creative.
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section  -->
+    <section id="video-sec">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-12 video-sec-content">
+          <h1 class="font-weight-bold text-center video-title">Creativity is Everything</h1>
+          <p class="text-center video-para">Creativity Is Simply Everywhere. It Can Be Found Anywhere Between A Chit Chat In An Elementary School To A Simple Poster To A BoardRoom Meeting. The Excellence Of Creativity Is That It is Not Trapped Within One Industry But Rather, It is The Driving Force Of Any Sector. In Fact, As Per Forbes, Creativity Is One Of <br> The Top Necessary Factors For Any Business To Grow. </p>
+          <a href="#" class="btn btn-outline-primary">View More</a>
+        </div>
+
+        <video class="video-fluid z-depth-1 col-md-4" loop controls muted>
+          <source src="https://amdt.lk/wp-content/uploads/2020/05/Explore-the-exciting-world-of-fashion.mp4?_=2" type="video/mp4" />
+        </video>
+        <video class="video-fluid z-depth-1 col-md-4" loop controls muted>
+          <source src="https://amdt.lk/wp-content/uploads/2021/05/AMDT-Graduation-2018.mp4?_=6" type="video/mp4" />
+        </video>
+        <video class="video-fluid z-depth-1 col-md-4" loop controls muted>
+          <source src="https://amdt.lk/wp-content/uploads/2021/05/AMDT-Showcase-at-the-Festival-of-Creativity-2019.mp4?_=1" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+
+    <!-- about falmouth  -->
+    <section id="about-falmouth">
+      <div class="row justify-content-md-center img-background">
+        <div class="col-lg-6 order-lg-1 falmouth-sec-content">
+          <h1 class="font-weight-bold falmouth-title">Welcome to Amdt</h1>
+          <p class="falmouth-para">
+            Creativity Is Simply Everywhere. It Can Be Found Anywhere Between A Chit Chat In An Elementary School To A Simple Poster To A BoardRoom Meeting. The Excellence Of Creativity Is That It’s Not Trapped Within One Industry But Rather.
+          </p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+
+        <video class="video-fluid z-depth-1 col-md-6" loop controls muted>
+          <source src="https://amdt.lk/wp-content/uploads/2020/07/falmouth-university.mp4?_=7" />
+        </video>
+      </div>
+    </section>
+
+        <!-- info carousel -->
+        <section id="info-carousel">
+          <div class="row row justify-content-md-center img-background">
+            <div class="col-lg-8 info-carousel-content">
+              <h1 class="font-weight-bold text-center info-carousel-title">AMDT School Of Creativity Is Where You Bring Your Creativity Dreams To Life</h1>
+              <h5 class="text-center info-carousel-sub-title">Swipe To Find Out Why</h5>
+            </div>
+        <div class="col-lg-12 owl-carousel owl-theme">
+          <div class="item"><img src="./images/amdt_str1-720x480.jpg" alt=""></div>
+          <div class="item"><img src="./images/amdt_str2-720x480.jpg" alt=""></div>
+          <div class="item"><img src="./images/amdt_str3-720x480.jpg" alt=""></div>
+          <div class="item"><img src="./images/amdt_str4-720x480.jpg" alt=""></div>
+          <div class="item"><img src="./images/amdt_str5-720x480.jpg" alt=""></div>
+          <div class="item"><img src="./images/amdt_str6-720x480.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Events Section  -->
+    <section id="events-sec">
+      <div class="row align-middle">
+        <div class="col-lg-6 order-lg-1 events-content">
+          <h1 class="font-weight-bold events-title">Our Events</h1>
+            <p class="events-para">
+              At AMDT, We Have Many Events Filled With Fun, Creativity And Excitement! Both Exclusive To Amdtians And Open For Everybody! Our Students Enjoy Being A Part Of Organizing These Events And Taking Part To Have Fun While Learning New Skills And Strengthening Friendships.
+            </p>
+        </div>
+
+        <div class="col-lg-6 order-lg-2">
+          <img src="./images/amdt-fashion-show.png" class="img-fluid" alt="" width="100%">
+        </div>
+      </div>
+    </section>
+
+    <section id="events-sec">
+      <div class="row align-middle">
+        <div class="col-lg-6 order-lg-2 events-content">
+          <h1 class="font-weight-bold events-title">AMDT Premier League 2020</h1>
+            <p class="events-para">
+              Highlights from ‘AMDTians Premier League 2020’ – AMDT, School of Creativity’s annual cricket encounter was held on January 26th 2020 at the St.Peter’s College grounds, Bambalapitiya. We thank our partners from Falmouth University for their participation and sportsmanship at the event.
+            </p>
+        </div>
+
+        <div class="col-lg-6 order-lg-1">
+          <img src="./images/amdt-apl.png" class="img-fluid" alt="" width="100%">
+        </div>
+      </div>
+    </section>
+
+
+   
+
 </main>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    center: true,
+    margin:32,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+  </script>
 </body>
 </html>
