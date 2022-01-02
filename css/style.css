@@ -116,6 +116,143 @@
 }
 
 
+/* footer & bottom bar  */
+.footer {
+    background-color: #191919;
+}
+.footer-container  {
+    padding: 100px 30px 10px 30px;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+p.footer-about{
+    font-size: 14px;
+    color: #ffffff;
+    padding-right: 15px;
+}
+
+.footer-col-1 {
+    margin-top: -50px;
+}
+
+.footer-links li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-links li a:hover {
+    color: #0455A4;
+}
+
+.bottom-bar {
+    background-color: #0455A4;
+    padding: 10px 0px;
+}
+
+.bottom-bar p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.bottom-bar a {
+    color: #ffffff;
+}
+
+.fa-map-marker {
+    padding: 6px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.fa-phone {
+    padding: 6px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.fa-envelope {
+    padding: 6px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.fa-map-marker:before {
+    color: #ffffff;
+    font-size: 20px;
+}
+.fa-phone:before {
+    color: #ffffff;
+    font-size: 20px;
+}
+.fa-envelope:before {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.footer-social-icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: -5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-social-icons .fa {
+    padding: 8px 10px;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #0455A4;
+    border-radius: 5px;
+}
+.fa-facebook {
+    background-color: beige;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
+.fa-instagram {
+    background-color: beige;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
+.fa-linkedin {
+    background-color: beige;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
+.fa-twitter {
+    background-color: beige;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
+
+.fa-facebook:before {
+    color: #0455A4;
+    font-weight: 700;
+}
+.fa-instagram:before {
+    color: #0455A4;
+    font-weight: 900;
+    padding-right: 2px;
+}
+.fa-linkedin:before {
+    color: #0455A4;
+    font-weight: 700;
+}
+.fa-twitter:before {
+    color: #0455A4;
+    font-weight: 700;
+}
+
+.form-control {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 45px;
+}
+
 /* home about  */
 #home-about {
     margin: 70px 30px;
@@ -297,4 +434,11 @@ h1.events-title {
     margin-bottom: 0px;
     margin-top: 45px;
 }
+
+
+
+
+
+
+
 

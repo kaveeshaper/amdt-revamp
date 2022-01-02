@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revamp</title>
+
     <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,49 +14,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="js/script.js"></script>
+    <title>Revamp</title>
+
 </head>
 
-<script type="text/javascript">
-    $(window).scroll(function(){
-        $('nav').toggleClass('sticky', $(this).scrollTop() > 200)
-    })
-</script>
 <body>
   <!-- amdt header -->
-  <header class="header">
-    <nav class="navbar navbar-expand-lg header-nav fixed-top">
-      <a class="main-logo" href="index.html"><img src="images/amdt-logo-2.png"></a>
-      <a class="mobile-logo" href="index.html"><img src="images/amdt-logo.png"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <!-- menu items -->
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Amdt Quiz</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My Creative Page</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About the Developer</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-          <button class="nav-btn">Apply Now</button>
-        </ul>
-      </div>
-    </nav>
+  <header id="header">  
+
+
   </header>
   
   <main id="main">
@@ -256,19 +226,52 @@
     </section>
 
 
-   
+    <!-- <section id="partners-sec">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-6 falmouth-logo text-right">
+          <a class="main-logo" href="index.html"><img src="images/amdt-logo-2.png"></a>
+        </div>
+        <div class="col-lg-6 pearson-logo">
+          <a class="main-logo" href="index.html"><img src="images/amdt-logo-2.png"></a>
+        </div>
+        
+    </section> -->
+
+
+    <!-- Home Contact Section -->
+    <!-- <section id="home-contact-set">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-8">
+          <h1 class="text-area-two-title font-weight-bold  text-center"> 
+            Have Some Questions ?
+          </h1>
+        </div>
+        <div class="col-lg-4">
+          <a href="#" class="btn btn-outline-primary contact-btn ">Contact Us</a>
+        </div>
+      </div>
+    </section> -->
+
+
+
+  
+  
+      <!-- FOOTER -->
+      <footer id="footer">  
+      </footer>
 
 </main>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- <script src="./js/script.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+  
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  
   <script>
-    $('.owl-carousel').owlCarousel({
+    
+  $('.owl-carousel').owlCarousel({
     loop:true,
     center: true,
     margin:32,
@@ -284,7 +287,7 @@
             items:2
         }
     }
-})
+  })
   </script>
 </body>
 </html>
