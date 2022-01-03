@@ -6,6 +6,12 @@
     font-size: 16px;
     color: #191919;
     line-height: 32px;
+    
+}
+
+/* container-width  */
+.container {
+    max-width: 1400px;
 }
 
 /* navigation bar */
@@ -435,10 +441,51 @@ h1.events-title {
     margin-top: 45px;
 }
 
+/* end of the Home page ___________________________________________________________________________________________  */
 
 
 
+/* Contact Us Page _________________________________________________________________________________________________ */
 
 
+/* Contact Hero Sec  */
 
+.contact-bgimage {
+  margin-top: 50px;
+  height:250px;
+  background: url('https://amdt.lk/wp-content/uploads/amdt_graduation_6-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  margin-bottom: 70px;
+}
+.page-title {
+    font-weight: 900;
+    text-shadow: 0px 5px 10px #000000;
+}
+.contact-sec-title {
+    margin-bottom: 50px;
+}
+.contact-content {
+    margin-bottom: 70px;
+}
 
+.contact-details {
+    margin-bottom: 50px;
+}
+
+.contact-info-box {
+    background-color: #191919;
+    padding: 36px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.contact-info-box:hover {
+    box-shadow: 0 14px 28px rgb(0 0 0 / 10%), 0 10px 10px rgb(0 0 0 / 10%);
+}
+.contact-info-box h4 {
+    color: #ffffff;
+}
+.contact-info-box p {
+    color: #ffffff;
+}
