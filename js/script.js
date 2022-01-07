@@ -14,6 +14,37 @@ $(window).on("load", function() {
   })
 
 
+// Contact us___________________________________________________________________ 
+
+
+function contact() {
+
+	var name = document.getElementById("name")
+    var email = document.getElementById("email")
+    var subject = document.getElementById("subject")
+    
+	if(name.value === "" || name.value === null) {
+		document.getElementById("send_msg").innerHTML = "Fill out the required fields";
+		document.getElementById("send_msg").style.color = "red";
+		document.getElementById("name").style.borderColor = "red";
+	} else if (email.value === "" || name.value === null) {
+		document.getElementById("send_msg").innerHTML = "Fill out the required fields";
+		document.getElementById("send_msg").style.color = "red";
+		document.getElementById("email").style.borderColor = "red";
+	} else if (subject.value === "" || name.value === null) {
+		document.getElementById("send_msg").innerHTML = "Fill out the required fields";
+		document.getElementById("send_msg").style.color = "red";
+		document.getElementById("subject").style.borderColor = "red";
+	} else {
+		document.getElementById("send_msg").innerHTML = "Thank you for your email !";
+		document.getElementById("send_msg").style.color = "green";
+	}
+
+
+	
+}
+
+
 // Amdt quiz___________________________________________________________________ 
 
 function check(){

@@ -583,11 +583,13 @@ h1.events-title {
 } */
 
 /* Contact us page______________________________________________________________  */
-
+#contact_sec {
+    margin: 70px 30px;
+}
 .contact-bgimage {
   margin-top: 50px;
   height:250px;
-  background: url('https://amdt.lk/wp-content/uploads/amdt_graduation_6-1.jpg');
+  background: url('/images/contact-us-banner.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
