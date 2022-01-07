@@ -260,7 +260,7 @@ p.footer-about{
 
 /* home about  */
 #home-about {
-    margin: 70px 30px;
+    margin: 70px 30px 0px 30px;
 }
 h1.about-title {
     margin-bottom: 22px;
@@ -440,8 +440,147 @@ h1.events-title {
     margin-top: 45px;
 }
 
+/* blog section  */
+
+#blog-sec {
+    margin: 100px 30px 70px 30px;
+}
+
+.main-blog-title {
+    margin-bottom: 32px;
+}
+
+.single-post {
+    padding: 20px 20px 10px 20px;
+}
+
+.blog-img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform .5s, filter 1.5s ease-in-out;
+
+}
+
+.blog-img:hover {
+    transform: scale(1.05);
+}
+
+.blog-body {
+    padding: 20px;
+    background: #f7f7f7;
+    /* margin-top: -100px; */
+    /* margin-right: 50px; */
+    margin: 30px;
+    margin-top: -100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+.blog-title {
+    font-weight: 600;
+}
+
+.blog-subtitle {
+    font-weight: 600;
+}
+
+.btn.blog-btn {
+    margin-bottom: 0px;
+}
 
 
+/* courses section  */
+#courses-sec {
+    margin: 70px 0px;
+}
+
+
+.course-bg-img {
+    height: 500px;
+    padding: 0 !important;
+    opacity: 1 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(11,25,58,0) 0%,rgba(11,25,58,0) 24%,rgba(11,25,58,1) 100%);
+    
+}
+.course-content-1 {
+    background: url('../images/graphic-design.jpg');
+}
+.course-content-2 {
+    background: url('../images/web-dev.jpg');
+}
+.course-content-3 {
+    background: url('../images/animation.jpg');
+    background-position-x: -228px;
+    background-position-y: -118px;
+}
+.course-content-4 {
+    background: url('../images/fashion-design.jpg');
+}
+
+.course-content {
+    transition: transform .5s, filter 1.5s ease-in-out;
+}
+
+.course-content:hover {
+    transform: scale(1.05);
+}
+
+
+.course-title {
+    background: rgba(0, 0, 0, 0.508);
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.course-body {
+    margin-top: 90%;
+    text-align: center;
+    padding: 0px 12px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.course-content-1 .btn-outline-primary {
+    margin-bottom: 32px !important;
+    color: #ffffff;
+}
+.course-content-2 .btn-outline-primary {
+    margin-bottom: 32px !important;
+    color: #ffffff;
+}
+.course-content-3 .btn-outline-primary {
+    margin-bottom: 32px !important;
+    color: #ffffff;
+}
+.course-content-4 .btn-outline-primary {
+    margin-bottom: 32px !important;
+    color: #ffffff;
+}
+
+.course-sec-title {
+    margin-bottom: 42px;
+    font-weight: 700;
+}
+
+.all-courses-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+}
+
+/* #contact-area {
+    margin: 50px 40px;
+} */
 
 /* Contact us page______________________________________________________________  */
 
@@ -590,7 +729,7 @@ button {
   
  
   /* Slide button styling */
-.slide {
+.slide-btn {
     font-size: 20px;
     font-weight: 200;
     letter-spacing: 1px;
@@ -603,7 +742,7 @@ button {
     background-color: rgba(0, 0, 0, 0);
 }
   
-.slide i {
+.slide-btn i {
     opacity: 0;
     font-size: 16px;
     transition: 0.2s;
@@ -614,17 +753,17 @@ button {
     color: #ffffff;
 }
   
-.slide div {
+.slide-btn div {
     transition: transform 0.8s;
     color: #ffffff;
     font-weight: 600;
 }
   
-  .slide:hover div {
+  .slide-btn:hover div {
     transform: translateX(-6px);
 }
   
-.slide::after {
+.slide-btn::after {
     content: "";
     background-color: #0455A4;
     width: 100%;
@@ -636,7 +775,7 @@ button {
     left: 7px;
 }
 
-.slide:hover i {
+.slide-btn:hover i {
     opacity: 1;
     transform: translateX(-6px);
 }
