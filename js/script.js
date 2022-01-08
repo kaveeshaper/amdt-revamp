@@ -153,3 +153,13 @@ if (question1 == "Creativity Starts Here") {
 	}
 	
 // End of Amdt quiz ___________________________________________________________________
+
+
+// About the developer page _________________________________________________________
+function imgFunction(imgs) {
+	var expandImg = document.getElementById("expandedImg");
+	expandImg.src = imgs.src;
+	
+	expandImg.parentElement.style.display = "block";
+}
+// End of About the developer page ___________________________________________________________________
