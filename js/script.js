@@ -163,3 +163,17 @@ function imgFunction(imgs) {
 	expandImg.parentElement.style.display = "block";
 }
 // End of About the developer page ___________________________________________________________________
+
+
+
+
+// back to top btn _________________________________________________________
+$(document).ready(function() {
+	$("#topBtn").click(function() {
+		$("html , body").animate({scrollTop : 0}, 800)
+	})
+})
+
+
+
+

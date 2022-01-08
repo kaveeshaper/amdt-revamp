@@ -258,6 +258,15 @@ p.footer-about{
     height: 45px;
 }
 
+
+/* carousel   */
+h1.carousel-title {
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: 0px 5px 10px #000000;
+}
+
 /* home about  */
 #home-about {
     margin: 70px 30px 0px 30px;
@@ -1122,3 +1131,216 @@ tr:nth-child(even) {
 }
 
 /* End of the AMDT Quiz page_____________________________________________________________________ */
+
+
+
+/* My creative page_____________________________________________________________________ */
+#contact_sec {
+    margin: 70px 30px;
+}
+.creative-page-bgimage {
+  margin-top: 50px;
+  height:250px;
+  background: url('/images/my-creative-page-banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  margin-bottom: 70px;
+}
+
+.creative-page span {
+    font-weight: 900;
+    text-shadow: 0px 5px 10px #000000;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+/* creative page about  */
+#creative_about {
+    padding: 0px 30px 70px 30px;
+}
+
+#creative_about .creative-sec-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Skills section  */
+#creative_about .skills-progress {
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+#creative_about h1 {
+    line-height: 54px;
+    margin-bottom: 32px;
+}
+
+.progress-bar-wrap {
+    background-color: #ededed;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    background-color: #0455A4;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#creative_about  span.skill {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#creative_about .single-skill {
+    margin-bottom: 15px;
+}
+
+
+#habits_sec {
+    padding: 0px 30px 0px 30px;
+}
+
+#habits_sec h1 {
+    line-height: 54px;
+    margin-bottom: 32px;
+}
+
+.habit-boxes {
+    margin-top: 70px;
+}
+
+.habit-boxes .box-3 {
+    margin-top: 70px;
+}
+
+.habit-boxes .box-4 {
+    margin-top: 70px;
+}
+
+.habit-box .habit-num h1 {
+    font-size: 150px;
+    font-weight: 900;
+    color: #0454a443;
+    margin-left: -50px;
+}
+
+.habit-box .habit-content {
+    margin-top: -50px;
+    padding-left: 30px;
+}
+
+.habit-box .habit-content h5 {
+    font-weight: 700;
+}
+
+.habit-box .habit-content p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#habits_sec .habits-sec-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* quotes section  */
+#quotes_sec .quotes-sec-background {
+    background: url('/images/fav-quote.jpg');
+    background-size: cover;
+    background-position: top;
+    padding: 70px 30px;
+    margin: 0px 0px 70px 0px;
+    background-attachment: fixed;
+}
+
+#quotes_sec .carousel-indicators {
+    top: 100%;
+}
+
+#quotes_sec h1 {
+    margin-bottom: 32px;
+    font-weight: 700;
+    text-shadow: 0px 5px 10px #000000;
+}
+
+
+/* counter section  */
+#counter_sec {
+    padding: 0px 30px 50px 30px;
+}
+
+#counter_sec h1{
+    margin-bottom: 32px;
+}
+
+#counter_sec p{
+    margin-bottom: 32px;
+}
+
+.fa-calendar {
+    padding: 30px;
+    background: aquamarine;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.fa-calendar:before {
+    font-size: 50px;
+}
+
+.fa-users {
+    padding: 30px;
+    background: aquamarine;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.fa-users:before {
+    font-size: 50px;
+}
+
+.fa-laptop {
+    padding: 30px;
+    background: aquamarine;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.fa-laptop:before {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.counter-details {
+    padding: 0px 100px;
+}
+
+
+/* Back to top btn_____________________________________________________________________ */
+#topBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    background-color: #0000008c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.fa-arrow-up:before {
+    color: #ffffff;
+}
+/* End of the back to top btn_____________________________________________________________________ */
+
+
+.tab-content>.active {
+    display: contents;
+}
